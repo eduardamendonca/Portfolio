@@ -31,7 +31,7 @@ body{
 
 .header-nav{
     display: flex;
-    gap: 32px;
+    gap: 32px;/*espaço entre as coisas*/
 }
 
 .header-nav-a{
@@ -79,4 +79,13 @@ body{
     font-family: 'Aldrich', sans-serif;
     font-weight: 400px;
     color: #FFFFFF; 
+    border-style:solid;
+    border-width:2px;
+    border-color: #C39BE8;
+    border-radius: 25px;
+}
+.main-button:hover{
+    background-color: #C39BE8;
+    border-color: #450482;
+    color: #000000;
 }
