@@ -11,6 +11,9 @@ body{
     font-size: 100%;
     background: #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../Portfólio/imagens/fundo.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .header{
@@ -18,11 +21,12 @@ body{
     flex-direction: row; /*direção em linha*/ 
     align-items: center;
     justify-content: space-around; /*espaço entre os itens*/
-    padding: 25px; /*espaço dos itens para o topo da página*/
+    font-size: 25px;
+    padding: 15px; /*espaço dos itens para o topo da página*/
 }
 
 .header-img-logo{
-    height: 50px;
+    height: 55px;
 }
 
 .header-nav-img-modo-claro{
@@ -31,7 +35,7 @@ body{
 
 .header-nav{
     display: flex;
-    gap: 32px;/*espaço entre as coisas*/
+    gap: 40px;/*espaço entre as coisas*/
 }
 
 .header-nav-a{
@@ -39,10 +43,12 @@ body{
     color: #FFFFFF;
     font-weight: 400;
 }
-
+.header-nav-a:hover{
+    color: #6A006C;
+}
 .main{
-    margin-bottom: 48px;
-    border-top: 0.4px solid #6A006C;
+    margin-bottom: 55px;
+    border-top: 2px solid #6A006C;
 }
 
 .main{
@@ -64,11 +70,11 @@ body{
 }
 
 .main-div-h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .main-div-h2{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .main-button{
@@ -84,8 +90,11 @@ body{
     border-color: #C39BE8;
     border-radius: 25px;
 }
-.main-button:hover{
+.main-button:hover{/*mudar o estilo ao passar o mause por cima*/
     background-color: #C39BE8;
     border-color: #450482;
     color: #000000;
+}
+.main-div-h3{
+    font-size: 25px;
 }
