@@ -7,7 +7,7 @@
     <meta name="description" content="Oie, eu sou Eduarda Mendonça. Desenvolvedora Front-End e sou apaixonada por progrmação, amo essa área que podemos criar tudo o que quisermos. 
     Meu primeiro contato com ela foi atravéz do meu primeiro curso em 2018 sobre linguagem C, mas só comecei a me aprofundar no assunto em 2021, quando iniciei o curso técnino sobre análise e desenvolvimento de sistemas.">
     <link rel="stylesheet" type="text/css" href="habilidades.css">
-    <script src="js/script.js"></script>
+    
     <title>Sobre Mim</title>
 </head>
 
@@ -26,11 +26,62 @@
     <main class="main">
         <div class="main-div">
             <h1 class="main-div-h1"><strong>Habilidades</strong></h1>
-            <div onmouseover="mouseOuver()"  onmouseout="mouseOut()" id="mouseAlt">
-                HTML
+            <div class="main-div-habilidades">
+                <div class="main-div-habilidades-blocos">
+                    <div onmouseover="mouseOuverSQL()" onmouseout="mouseOutSQL()">
+                        <a href="#" target="_self">
+                            <button class="main-button">
+                                <b class="text">SQL</b>
+                            </button> 
+                        </a>
+                    </div>
+                    <div onmouseover="mouseOuverPHP()" onmouseout="mouseOutPHP()">
+                        <a href="#" target="_self">
+                            <button class="main-button">
+                                <b class="text">PHP</b>
+                            </button> 
+                        </a>
+                    </div>
+                    <div onmouseover="mouseOuverHTML()" onmouseout="mouseOutHTML()">
+                        <a href="#" target="_self">
+                            <button class="main-button">
+                                <b class="text">HTML</b>
+                            </button> 
+                        </a>
+                    </div>
+                </div>
+                <div class="main-div-habilidades-blocos">
+                    <div onmouseover="mouseOuverFIGMA()" onmouseout="mouseOutFIGMA()">
+                        <a href="#" target="_self">
+                            <button class="main-button">
+                                <b class="text">FIGMA</b>
+                            </button> 
+                        </a>
+                    </div>
+                    <div onmouseover="mouseOuverCPP()" onmouseout="mouseOutCPP()">
+                        <a href="#" target="_self">
+                            <button class="main-button">
+                                <b class="text">C++</b>
+                            </button> 
+                        </a>
+                    </div>
+                    <div onmouseover="mouseOuverCSS()" onmouseout="mouseOutCSS()">
+                        <a href="#" target="_self">
+                            <button class="main-button">
+                                <b class="text">CSS</b>
+                            </button> 
+                    </a>
+                    </div>
+                </div>
             </div>
+        <script src="js/script.js"></script>
         </div>
-        </main>
+        <section class="section">
+            <p" id="mouseAlt" class="textP">Passe o mouse para descorbrir algumas das minhas habilidades</p>
+        </section>
+    </main>
+        
+
     <footer>
         <main>
             <a href="mailto:eduardamendonca.dev@gmail.com?subject=Olá Eduarda, me interssei em seu currículo...">eduardamendonca.dev@gmail.com</a>
