@@ -1,4 +1,9 @@
-var botao = document.querySelector("#mouseAlt");
+var bot//sorteio da página Sobre mim
+
+function soreteio(){}
+ao = document.querySelector("#mouseAlt");
+
+//animação da página habilidades
 
 function mouseOuverSQL(){
     document.getElementById("mouseAlt").innerHTML = "O SQL é uma linguagem padrão para manipulação de registros em bancos de dados relacionais";
