@@ -53,10 +53,9 @@ body{
     justify-content: space-around;
     align-content: center;
     font-family: 'Aldrich', sans-serif;
-    padding: 150px;
+    padding: 4%;
     font-weight: 400px;
-    color: #FFFFFF; 
-}
+    color: #FFFFFF;
 
 .main-div{
     display: flex;
@@ -69,12 +68,14 @@ body{
 }
 .main-div-h2{
     font-size: 30px;
+    
 }
 .main-button{
+    
     background-color: #450482;
-    width: 270px;
-    height: 80px;
-    font-size: 50px;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
     font-family: 'Aldrich', sans-serif;
     font-weight: 400px;
     color: #FFFFFF; 
@@ -84,6 +85,7 @@ body{
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 5px 5px 5px black;
+    
 }
 .main-button:hover{/*mudar o estilo ao passar o mause por cima*/
     background-color: #C39BE8;
@@ -92,4 +94,12 @@ body{
 }
 .main-div-h3{
     font-size: 25px;
+}
+.main-div-img{
+    width: 30rem;
+    border-radius: 1rem;
+    padding-top: 1rem;
+}
+.section{
+    padding-left: 1rem ;
 }
