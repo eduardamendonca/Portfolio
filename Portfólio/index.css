@@ -13,6 +13,10 @@ body{
     background-repeat: no-repeat;
     background-position: 100% 0%;
     background-size: 80%;
+    transition: background 0.5s linear;
+}
+input[type="checkbox"]{
+    display: none;
 }
 .header{
     display: flex;
@@ -30,6 +34,9 @@ body{
     height: 30px;
     cursor: pointer;
 }
+.header-nav-img-modo-escuro{
+    display: none;
+}
 .header-nav{
     display: flex;
     gap: 40px;/*espaço entre as coisas*/
@@ -38,6 +45,7 @@ body{
     font-family: 'Aldrich', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
+    
 }
 .header-nav-a:hover{
     color: #6A006C;
@@ -92,4 +100,35 @@ body{
 }
 .main-div-h3{
     font-size: 25px;
+}
+body.dark{
+    background-color: #FFFFFF;
+}
+.dark .header-nav-a:hover{
+    color: #6A006C;
+}
+.dark .header-nav-img-modo-claro{
+    display:none;
+}
+.dark .header-nav-img-modo-escuro{
+    display: block;
+    height: 30px;
+    cursor: pointer;
+}
+.dark .header-nav-a{
+    color: #000000;
+}
+.dark .main{
+    color:#000000;
+}
+.dark .main-button{
+    background-color: #C39BE8 ;
+    color: #000000; 
+    border-color: #450482;
+    transition: background 0.5s linear;
+}
+.dark .main-button:hover{/*mudar o estilo ao passar o mause por cima*/
+    background-color: #450482;
+    border-color: #C39BE8;
+    color: #ffffff;
 }

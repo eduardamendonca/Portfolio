@@ -1,19 +1,4 @@
-var bot//sorteio da página Sobre mim
 
-function sorteio(){
-const imagens = [
-  'certificados/Certificado de Atendimento ao Público - Fundação Bradesco.jpg',
-  'certificados/Certificado de empreendedorismo SEBRAE.jpg',
-  'certificados/Certificado de Gestão Financeira SEBRAE .jpg',
-  'certificados/Certificado MYSQL.jpg',
-  'certificados/Certificado PHP.jpg',
-];
-
-const sort = Math.floor(Math.random() * imagens.length);
-
-var imagem = imagens[indice];
-  document.getElementById('imagem-sorteada').innerHTML = '<img src="' + imagem + '">';
-}
 
 //animação da página habilidades
 

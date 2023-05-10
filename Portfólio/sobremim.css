@@ -13,7 +13,12 @@ body{
     background-repeat: no-repeat;
     background-position: 100% 0%;
     background-size: 80%;
+    transition: background 0.5s linear;
 }
+input[type="checkbox"]{
+    display: none;
+}
+
 .header{
     display: flex;
     flex-direction: row; /*direção em linha*/ 
@@ -22,6 +27,7 @@ body{
     font-size: 25px;
     padding: 15px; /*espaço dos itens para o topo da página*/
 }
+
 .header-img-logo{
     height: 55px;
     cursor: pointer;
@@ -29,6 +35,9 @@ body{
 .header-nav-img-modo-claro{
     height: 30px;
     cursor: pointer;
+}
+.header-nav-img-modo-escuro{
+    display: none;
 }
 .header-nav{
     display: flex;
@@ -46,60 +55,56 @@ body{
     margin-bottom: 55px;
     border-top: 2px solid #6A006C;
 }
-.main{
+.main{ 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     align-content: center;
     font-family: 'Aldrich', sans-serif;
-    padding: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 0%;
     font-weight: 400px;
     color: #FFFFFF;
+}
 
 .main-div{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-
 .main-div-h1{
     font-size: 50px;
 }
 .main-div-h2{
     font-size: 30px;
-    
-}
-.main-button{
-    
-    background-color: #450482;
-    width: 150px;
-    height: 60px;
-    font-size: 20px;
-    font-family: 'Aldrich', sans-serif;
-    font-weight: 400px;
-    color: #FFFFFF; 
-    border-style:solid;
-    border-width:2px;
-    border-color: #C39BE8;
-    border-radius: 25px;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px black;
-    
-}
-.main-button:hover{/*mudar o estilo ao passar o mause por cima*/
-    background-color: #C39BE8;
-    border-color: #450482;
-    color: #000000;
 }
 .main-div-h3{
+    padding-top: 2rem;
     font-size: 25px;
 }
-.main-div-img{
-    width: 30rem;
-    border-radius: 1rem;
-    padding-top: 1rem;
+.texto{
+    width: 40rem;
 }
-.section{
-    padding-left: 1rem ;
+body.dark{
+    background-color: #FFFFFF;
+}
+.dark .header-nav-a:hover{
+    color: #6A006C;
+}
+.dark .header-nav-img-modo-claro{
+    display:none;
+}
+.dark .header-nav-img-modo-escuro{
+    display: block;
+    height: 30px;
+    cursor: pointer;
+}
+.dark .header-nav-a{
+    color: #000000;
+}
+.dark .main{
+    color:#000000;
 }
