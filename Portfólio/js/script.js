@@ -20,10 +20,10 @@ function mouseOuverHTML(){
 function mouseOutHTML(){
     document.getElementById("mouseAlt").innerHTML = "Passe o mouse para descorbrir algumas das minhas habilidades"
 }
-function mouseOuverFIGMA(){
-    document.getElementById("mouseAlt").innerHTML = "O Figma é uma ferramenta de design que combina a acessibilidade da web com as funcionalidades de um aplicativo nativo.";
+function mouseOuverJAVASCRIPT(){
+    document.getElementById("mouseAlt").innerHTML = "Javascript é uma linguagem de programação de alta complexidade, mas de fácil uso, voltada para criar elementos em aplicações web, como sites, aplicativos e sistemas online.";
 }
-function mouseOutFIGMA(){
+function mouseOutJAVASCRIPT(){
     document.getElementById("mouseAlt").innerHTML = "Passe o mouse para descorbrir algumas das minhas habilidades"
 }
 function mouseOuverCPP(){
