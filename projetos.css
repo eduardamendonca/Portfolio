@@ -64,6 +64,12 @@ input[type="checkbox"]{
     font-weight: 400px;
     color: #FFFFFF; 
 }
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
 .main-button1{
     background-color: #29034D;
     transition: color .7s;
