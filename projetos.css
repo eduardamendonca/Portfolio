@@ -24,6 +24,7 @@ input[type="checkbox"]{
     align-items: center;
     justify-content: space-around; /*espaço entre os itens*/
     font-size: 25px;
+    border-bottom: 2px solid #6A006C;
     padding: 15px; /*espaço dos itens para o topo da página*/
 }
 .header-img-logo{
@@ -51,7 +52,7 @@ input[type="checkbox"]{
 }
 .main{
     margin-bottom: 55px;
-    border-top: 2px solid #6A006C;
+
 }
 .main{
     display: flex;
@@ -61,14 +62,18 @@ input[type="checkbox"]{
     align-content: center;
     font-family: 'Aldrich', sans-serif;
     padding: 150px;
+    padding-bottom: 0;
     font-weight: 400px;
     color: #FFFFFF; 
+    margin-bottom: 0;
 }
 .section{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 2rem;
+    
+    align-content: center;
 }
 .main-button1{
     background-color: #29034D;
