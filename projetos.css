@@ -71,8 +71,7 @@ input[type="checkbox"]{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 2rem;
-    
+    margin: 4rem;
     align-content: center;
 }
 .main-button1{
@@ -146,7 +145,7 @@ input[type="checkbox"]{
     gap: 30px;
 }
 .img{
-    width: 24.8rem;
+    width: 430px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     padding-top: 0%;
