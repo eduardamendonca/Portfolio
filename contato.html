@@ -6,17 +6,13 @@
     <title>Portfólio Eduarda Mendonca</title>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/texto.css">
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <div class="cabecalho__menu__logo">
                 <a href="index.html"><img class="cabecalho__menu__logo__img" src="assets/logo.svg" ></a>
-            </div>
-            <div class="mobile__menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
             </div>
             <div class="cabecalho__menu__links">
                 <a class="cabecalho__menu__link" href="index.html">Home</a>
@@ -27,26 +23,28 @@
             </div>
         </nav>
     </header>
-
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eduarda <strong class="titulo-detaque">Mendonça</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Eduarda Mendonça! Estudante em formação e estagiária em TI, com conhecimento em HTML, CSS, Java Script e Python pela empresa Alura</p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse as minhas redes:</h2>
-                <a class="apresentacao__links__navegacao" href="https://github.com/eduardamendonca">
-                    <img src="assets/github.svg" />
-                    Github
-                </a>
-                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/eduarda-mendonca/">
-                    <img src="assets/linkedin.svg" />
-                    LinkdeIn
-                </a>
-
+            <h1 class="apresentacao__conteudo__titulo">Entre em <strong class="titulo-detaque">contato</strong></h1>
+    
+        <form action="#" method="#" class="form">
+            <div class="form_input">
+                <label for="nome" class="apresentacao__conteudo__texto">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
             </div>
-        </section>
-        <img class="apresentacao__imagem" src="/assets/Imagem.png" alt="Foto da Eduarda Mendonça">
-        <script src="js/mobile-nav.js"></script>
+            <div class="form_input">
+                <label for="email" class="apresentacao__conteudo__texto">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form_input">
+                <label for="mensagem" class="apresentacao__conteudo__texto">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <button class="button_submit" type="#">Enviar</button>
+
+        </form>
+    </section>
+    <img class="apresentacao__imagem" src="/assets/Imagem.png" alt="Foto da Eduarda Mendonça">
     </main>
     <footer class="rodape">
         <img class="rodape__img" src="assets/alura.svg" alt="Alura" >
